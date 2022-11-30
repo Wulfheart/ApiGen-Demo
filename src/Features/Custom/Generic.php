@@ -7,7 +7,7 @@ use ApiGenTests\Features\Php80\ConstructorPromotion\ParamNode;
 use ApiGenTests\Features\Php81\IntersectionTypes\Collection;
 
 
-class Generic
+class Generic extends Second
 {
     /**
      * @return phpstan-string<Node|ParamNode>
