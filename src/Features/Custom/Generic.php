@@ -1,0 +1,18 @@
+<?php declare(strict_types = 1);
+
+namespace ApiGenTests\Features\Custom;
+
+use ApiGenTests\Features\Php80\ConstructorPromotion\Node;
+use ApiGenTests\Features\Php80\ConstructorPromotion\ParamNode;
+
+
+class Generic
+{
+    /**
+     * @return phpstan-string<Node|ParamNode>
+     */
+	public function getIt(): string
+    {
+        return "";
+    }
+}
