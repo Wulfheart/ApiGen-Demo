@@ -6,6 +6,9 @@ use Countable;
 use Traversable;
 
 
+/**
+ * @template T
+ */
 class Collection
 {
 	protected Traversable & Countable $items;

@@ -4,6 +4,7 @@ namespace ApiGenTests\Features\Custom;
 
 use ApiGenTests\Features\Php80\ConstructorPromotion\Node;
 use ApiGenTests\Features\Php80\ConstructorPromotion\ParamNode;
+use ApiGenTests\Features\Php81\IntersectionTypes\Collection;
 
 
 class Generic
@@ -14,5 +15,12 @@ class Generic
 	public function getIt(): string
     {
         return "";
+    }
+
+    /**
+     * @return Collection<string>
+     */
+    public function class() {
+
     }
 }
