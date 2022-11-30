@@ -2,6 +2,6 @@
 
 namespace ApiGenTests\Features\Custom;
 
-class Third extends Second
+class Third
 {
 }
